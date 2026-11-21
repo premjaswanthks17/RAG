@@ -1,0 +1,16 @@
+fastapi==0.115.12 
+uvicorn[standard]==0.34.2 #to launch fastapi webserver
+jinja2==3.1.6 #for using html css
+pydantic-settings==2.8.1 # for configuration
+boto3==1.37.38 #for managing AWS S3 buckets
+psycopg[binary,pool]==3.2.13 #for PostgreSQL database connectivity
+pypdf==5.4.0 #for PDF manipulation
+python-docx==1.1.2 #for Word document manipulation
+httpx==0.28.1 # for HTTP requests
+langgraph>=0.2,<2 # for language graph operations
+pinecone>=5,<9 # for Pinecone vector database connectivity
+
+python-dotenv==1.0.1
+
+#  observability 
+glassflow-rius>=1.0,<2.0
